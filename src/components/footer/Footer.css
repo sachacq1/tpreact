@@ -1,0 +1,35 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000000c9; 
+    border-top: 1px solid #e0e0e0; 
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin-left: 1rem;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #007bff; 
+    font-weight: bold;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-text {
+    margin-top: 1rem;
+    color: #6c757d; 
+  }
+  
