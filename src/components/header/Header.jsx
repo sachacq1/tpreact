@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <header className="header">
       <div className="logo">
-      <i class='bx bxs-mouse-alt'></i>
+      <i className='bx bxs-mouse-alt'></i>
       </div>
       <nav className="nav-menu">
         <ul>
