@@ -22,8 +22,9 @@ import "./Home.css";
         };
     
   return (
-    <Layout>
-      <div className="main">
+    <>
+    <main>
+      <div className="cont-home">
       <div className="login-form">
       <h2>¿Como te llamas? </h2>
       <form onSubmit={handleSubmit}>
@@ -41,7 +42,8 @@ import "./Home.css";
       </form>
     </div>
       </div>
-    </Layout>
+    </main>
+    </>
   );
 }
 export default Home;
