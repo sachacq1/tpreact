@@ -1,13 +1,10 @@
 
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.main-contact {
+
     width: 100%;
     margin: auto;
-    height: 70vh;
+    height: 80vh;
     
   }
 .name {
@@ -16,24 +13,30 @@
   align-items: center;
   margin: auto;
   width: 100%;
-  height: 20%;
+ align-self: center;
+}
+.name h1 {
+padding: 10px 0 ;
+color: black;
 }
 
 
   .form {
     width: 100%;
-margin: auto;
     display: block;
     justify-content: center;
     height: 60%;
+    align-self: center;
+    margin: auto;
+    height: 50%;
   }
 .cont-form{
-  display:block;
-  justify-content: center;
   align-content: center;
   margin: auto;
   height: 100%;
   width: 40%;
+  display: block;
+  justify-items: center;
 }
   .form div {
     text-align: center;
@@ -44,6 +47,7 @@ margin: auto;
       background-color: #f9f9f9;
       display: block;
       height: 100%;
+      justify-content: center;;
      
 
       
@@ -64,7 +68,7 @@ margin: auto;
     
     .textarea {
       width: 70%;
-      height: 40%;
+      height: 30%;
       padding: 0.5rem;
       border: 1px solid #ccc;
       border-radius: 4px;

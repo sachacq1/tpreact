@@ -18,12 +18,12 @@ import "./Home.css";
             e.preventDefault();
             updateUser(name);
             setName("");
-            navigate("/contact")
+            navigate("/portfolio")
         };
     
   return (
     <>
-    <main>
+    <main className="main-home">
       <div className="cont-home">
       <div className="login-form">
       <h2>¿Como te llamas? </h2>

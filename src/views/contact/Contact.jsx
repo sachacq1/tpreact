@@ -6,7 +6,7 @@ const Contacto = () => {
 
     return (
         <Layout>
-          <section className="main">
+          <section className="main-contact">
             
        <div className="cont-form">
        <div className="name">
