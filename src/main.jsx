@@ -2,10 +2,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Router from './router/Router.jsx'
-import './index.css'
+import './index.css'  ;
+import { UserProvider } from './context/useContext.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <UserProvider>
+    <React.StrictMode>
     <Router />
-  </React.StrictMode>,
+  </React.StrictMode>
+  </UserProvider>
 );

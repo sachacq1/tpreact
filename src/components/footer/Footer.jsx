@@ -1,12 +1,13 @@
-import "./Footer.css"
+import "./Footer.css";
+import { Link } from 'react-router-dom';
 const Footer = () => {
  
     return (
         <footer className="footer">
         <nav className="nav-menu">
           <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/contact">Contacto</a></li>
+          <li><Link to="/">Inicio</Link></li>
+          <li><Link  to="/contact">Contacto</Link></li>
           </ul>
         </nav>
         <p className="footer-text">© 2024. Todos los derechos reservados.</p>

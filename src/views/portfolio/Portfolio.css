@@ -1,3 +1,128 @@
-h1 {
+/* body */
+/* .main-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+} */
+
+
+
+/* section main */
+
+.main-portfolio {
+    min-height: 100vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 4rem;
+} 
+
+/* section bio */
+
+.s-header {
+    padding: 20px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.s-header h1 {
+    font-size: 2rem;
+}
+
+.s-header h2 {
+    font-size: 1rem;
+}
+
+.s-header span {
+    font-size: 0.8rem;
+}
+
+.s-header img {
+    width: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.cont-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-header ul {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.s-header ul a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 4px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.3s background-color ease;
+}
+
+.s-header ul a:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+@media (max-width: 880px) {
+    .s-header {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .s-header ul {
+        justify-content: center;
+    }
+}
+
+
+/* */
+
+
+
+.work-list div,
+.education-list div {
+    margin-bottom: 10px;
+}
+
+.work-list a,
+.education-list a {
     color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.work-list a:hover,
+.education-list a:hover
+ {
+    text-decoration: underline;
+}
+
+.work-list h3,
+.work-list h4,
+.education-list h3,
+.education-list h4{
+    margin-bottom: 5px;
+}
+
+
+.work-list,
+.education-list {
+    display: block;
+    justify-content: space-between;
+    gap: 1rem;
+
 }

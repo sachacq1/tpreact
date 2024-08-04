@@ -1,23 +1,31 @@
+/* eslint-disable no-unused-vars */
 import Layout from "../../components/layout/Layout.jsx"
 import { useUser } from "../../context/useContext.jsx";
+
 import "./Contact.css"
 const Contacto = () => {
-    const { userData } = useUser();
-
+    const { userData} = useUser();
+    console.log("Contacto userData:", userData); 
     return (
         <Layout>
           <section className="main-contact">
             
        <div className="cont-form">
        <div className="name">
-        {userData.name ? (
-        <div className="hiName">
-          <h1>Hola {userData.name} <br />Bienvenido</h1>
-        </div>
-      ) : (
-        ""
-      )}
-        </div>  
+            {userData && userData.name ? (
+              <div className="hiName">
+                <h1>
+                  Hola {userData.name}
+                  <br />
+                  Bienvenido
+                </h1>
+              </div>
+            ) : (
+              <div className="hiName">
+                <h1>Bienvenido</h1>
+              </div>
+            )}
+          </div>  
        <form className="form">
         <div>
         <label >Correo Electrónico:</label>

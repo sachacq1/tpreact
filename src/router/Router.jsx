@@ -4,20 +4,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../views/home/Home.jsx";
 import Contacto from "../views/contact/Contact.jsx"
 import React from "react";
-import { UserProvider } from "../context/useContext.jsx";
-import Portofolio from "../views/portfolio/Portfolio..jsx";
+import Portfolio from "../views/portfolio/Portfolio..jsx";
 
 const Router = () => {
     return (
-        <UserProvider>
             <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/contact" element={<Contacto />}/>
-                <Route path="/portfolio" element={<Portofolio />}/>
+                <Route path="/portfolio" element={<Portfolio />}/>
             </Routes>
         </BrowserRouter>
-        </UserProvider>
     );
 };
 

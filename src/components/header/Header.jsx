@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unknown-property */
-
+import { Link } from 'react-router-dom';
 import "./Header.css";
 
 const Header = () => {
- 
+
     return (
         <header className="header">
       <div className="logo">
@@ -11,8 +12,8 @@ const Header = () => {
       </div>
       <nav className="nav-menu">
         <ul>
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/contact">Contacto</a></li>
+          <li><Link to="/">Inicio</Link></li>
+          <li><Link  to="/contact">Contacto</Link></li>
         </ul>
       </nav>
     </header>
