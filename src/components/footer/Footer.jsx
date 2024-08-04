@@ -8,6 +8,7 @@ const Footer = () => {
           <ul>
           <li><Link to="/">Inicio</Link></li>
           <li><Link  to="/contact">Contacto</Link></li>
+          <li><Link  to="/portfolio">Portfolio</Link></li>
           </ul>
         </nav>
         <p className="footer-text">© 2024. Todos los derechos reservados.</p>
