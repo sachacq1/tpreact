@@ -20,22 +20,24 @@ const projects = [
 
 const Projects = () => {
     return (
-        <div id="project-list">
-            {projects.map((project, index) => {
-                const stringOfTags = project.tags.map((tag, i) => <li key={i}>{tag}</li>);
+        <div className="project-list" >
+            {
+                projects.map((project, index) => {
+                    const stringOfTags = project.tags.map((tag, i) => <li key={i}>{tag}</li>);
 
-                return (
-                    <div className="project" key={index}>
-                        <div className="cont-header-project">
-                            <h3><a target="_blank" rel="noopener noreferrer" href={project.url}>{project.name}</a></h3>
-                            <span className={project.status === 1 ? "production" : ""}></span>
+                    return (
+                        <div className="project" key={index}>
+                            <div className="cont-header-project">
+                                <h3><a target="_blank" rel="noopener noreferrer" href={project.url}>{project.name}</a></h3>
+                                <span className={project.status === 1 ? "production" : ""}></span>
+                            </div>
+                            <p>{project.description}</p>
+                            <ul>{stringOfTags}</ul>
                         </div>
-                        <p>{project.description}</p>
-                        <ul>{stringOfTags}</ul>
-                    </div>
-                );
-            })}
-        </div>
+                    );
+                })
+            }
+        </div >
     );
 };
 

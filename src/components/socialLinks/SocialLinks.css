@@ -1,16 +1,30 @@
+.social-links {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  list-style: none;
 
+}
 
-  .social-links {
-    padding: 10px;
+.social-links a {
+  display: inline-block;
+  color: black;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 880px) {
+  .cont-social-links {
     display: flex;
-    gap: 10px;
     justify-content: center;
-    list-style: none;
-    
+    text-align: center;
   }
+}
 
-  .social-links a {
-    display: inline-block;
-    color: black;
-    font-size: 1.5rem;
+@media (max-width: 440px) {
+  .cont-social-links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
+}
