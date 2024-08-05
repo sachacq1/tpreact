@@ -25,7 +25,7 @@
 /* section bio */
 
 .s-header {
-    padding: 20px;
+    padding: 20px 20px 20px 0;
     /* display: flex; */
     justify-content: space-between;
     align-items: center;
@@ -77,6 +77,10 @@
 
 .s-header ul a:hover {
     background-color: rgb(179, 179, 179);
+}
+
+.s-bio .text-bold p {
+    font-size: 1rem;
 }
 
 @media (max-width: 880px) {

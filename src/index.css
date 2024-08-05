@@ -31,4 +31,5 @@ span,
 li,
 i {
   font-family: var(--f-text);
+  font-size: 0.9rem;
 }
