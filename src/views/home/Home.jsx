@@ -26,7 +26,8 @@
       <main className="main-home">
         <div className="cont-home">
         <div className="login-form">
-        <h2>¿Como te llamas? </h2>
+        <h2>Bienvenido a mi portfolio </h2>
+        <p>¿Cual es tu nombre?</p>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label  ></label>
@@ -34,7 +35,7 @@
               type="text"
               value={name}
               onChange={handleChangeName}
-              placeholder="Ingrese su nombre..."
+              placeholder="Ingresa tu Nombre..."
               required
             />
           </div>

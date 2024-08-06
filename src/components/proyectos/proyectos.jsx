@@ -3,18 +3,18 @@ import React from 'react';
 
 const projects = [
     {
-        name: "Coca Cola home page",
-        url: "http://www.google.com",
+        name: "Tienda virtual",
+        url: "https://guitarstore-web.vercel.app/",
         status: 1,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, obcaecati?",
-        tags: ["Elige tu propia aventura", "En desarrollo"]
+        description: "Trabajo practico de una tienda virtual de venta de intrumentos",
+        tags: ["Primer proyecto", "En desarrollo"]
     },
     {
-        name: "Coca Cola home page",
-        url: "http://www.google.com",
-        status: 0,
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, obcaecati?",
-        tags: ["Elige tu propia aventura", "En desarrollo", "Aprendiendo JS"]
+        name: "Api Harry Potter",
+        url: "https://api-hr-11.vercel.app/",
+        status: 1,
+        description: "Una api de Harry potter donde encontraras todos los personajes",
+        tags: ["En desarrollo", "Aprendiendo JS"]
     }
 ];
 

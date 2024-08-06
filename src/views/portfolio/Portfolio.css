@@ -37,7 +37,7 @@
 }
 
 .s-header h2 {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .s-header span {
@@ -140,6 +140,24 @@
 
 /* */
 
+.aptitudes {
+    display: inline-block   ;
+}
+.cont-header-aptitudes {
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+
+justify-content: center;
+align-items: center;}
+
+.cont-header-aptitudes  img {
+    width: 40px;
+    height: 40px;
+}
 
 /*  */
 .project-list {

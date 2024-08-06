@@ -7,14 +7,14 @@ const educationTitle = [
         yearStart: 2024,
         yearEnd: 0,
         role: "Full stack developer",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore dignissimos earum harum a aut corporis pariatur sit autem natus!"
+        description: "Actualmente estoy cursando la Diplomatura en Full Stack Developer en la Universidad Tecnológica Nacional (UTN), donde estoy adquiriendo habilidades avanzadas en el desarrollo de aplicaciones web tanto en el frontend como en el backend. Este programa de estudios intensivo está diseñado para proporcionar una comprensión integral de las tecnologías y metodologías modernas utilizadas en el desarrollo de software."
     },
     {
         name: "IMM",
         yearStart: 2006,
         yearEnd: 2008,
         role: "Bachiller",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore dignissimos earum harum a aut corporis pariatur sit autem natus!"
+        description: "Realicé mis estudios secundarios en el Instituto Mariano Moreno, una institución educativa conocida por su excelencia académica y enfoque integral en la formación de sus estudiantes. Durante este período, adquirí una sólida base educativa que abarcó una amplia gama de materias y habilidades, preparándome para futuros desafíos académicos y profesionales."
     }
 ];
 

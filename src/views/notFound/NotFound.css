@@ -1,0 +1,16 @@
+.main-notFound {
+
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+
+.notFound {
+
+    width: 60%;
+    height: 85%;
+}

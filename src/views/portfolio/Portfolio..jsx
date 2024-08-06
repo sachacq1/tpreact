@@ -6,6 +6,7 @@ import Projects from "../../components/proyectos/proyectos.jsx";
 import Works from "../../components/trabajos/trabajo.jsx";
 import Education from "../../components/educacion/educacion.jsx";
 import SocialLinks from "../../components/socialLinks/SocialLinks.jsx";
+import Aptitudes from "../../components/aptitudes/Aptitudes.jsx";
 import "./Portfolio.css"
 
 
@@ -18,7 +19,7 @@ const Portfolio = () => {
             <main className="main-portfolio">
                 <section className="s-header">
                     <div>
-                        <h1>Sacha Quinteros</h1>
+                        <h1>Sacha Claudio Emmanuel Quinteros</h1>
                         <h2>Fullstack Developer</h2>
 
                         <i className='bx bx-world'></i>
@@ -38,6 +39,7 @@ const Portfolio = () => {
 
                 <Works />
                 <Education />
+                <Aptitudes />
                 <Projects />
             </main>
         </Layout>

@@ -15,9 +15,9 @@ const Contacto = () => {
             {userData && userData.name ? (
               <div className="hiName">
                 <h1>
-                  Hola {userData.name}
+                  Bienvenid@ {userData.name}
                   <br />
-                  Bienvenido
+                  Dejame tu mensaje
                 </h1>
               </div>)
               :

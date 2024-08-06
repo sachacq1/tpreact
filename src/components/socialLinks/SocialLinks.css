@@ -7,9 +7,9 @@
 
 }
 
-.social-links a {
+.social-links a, i {
   display: inline-block;
-  color: black;
+  color: rgb(123, 123, 123);
   font-size: 1.5rem;
 }
 
