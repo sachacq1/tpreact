@@ -27,7 +27,7 @@ const Contacto = () => {
                 </div>
               )}
           </div>
-          <form className="form" action="https://formsubmit.co/quinteros@finrap.com.ar" method="POST">
+          <form className="form" action="https://formsubmit.co/sachacq1@gmail.com" method="POST">
             <div>
               <input type="hidden" name="userName" value={userData?.name || ''} />
               <label >Correo Electrónico:</label>
