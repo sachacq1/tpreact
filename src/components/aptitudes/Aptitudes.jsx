@@ -29,7 +29,7 @@ const aptitudes = [
 const Aptitudes = () => {
     return (
         <div className="aptitudes-list">
-            <h3>Aptitudes</h3>
+            <h2>Aptitudes</h2>
             {aptitudes.map((aptitude, index) => (
                 <div className="aptitudes" key={index}>
                     <div className="cont-header-aptitudes">

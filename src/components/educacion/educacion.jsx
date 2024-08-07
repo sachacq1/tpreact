@@ -20,6 +20,8 @@ const educationTitle = [
 
 const Education = () => {
     return (
+        <section className='cont-education-list'>
+            <h2 className="text-bold">Educación</h2>
         <div className="education-list">
             {educationTitle.map((education, index) => (
                 <div key={index}>
@@ -32,6 +34,7 @@ const Education = () => {
                 </div>
             ))}
         </div>
+        </section>
     );
 };
 

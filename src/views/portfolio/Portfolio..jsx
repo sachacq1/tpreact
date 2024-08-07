@@ -36,7 +36,6 @@ const Portfolio = () => {
                     <h2 className="text-bold">Sobre mi</h2>
                     <p>Actualmente trabajando en Financie Rápido, donde comencé como cadete y ahora me dedico a la gestión de créditos. Mi interés por el desarrollo de software me llevó a estudiar una diplomatura en Full Stack Development en la Universidad Tecnológica Nacional (UTN). Además, he ampliado mis conocimientos a través de cursos en línea en plataformas como Ademass y freeCodeCamp, donde he obtenido certificados en HTML, CSS, JavaScript, GitHub, React y Node.js. </p>
                 </section>
-
                 <Works />
                 <Education />
                 <Aptitudes />

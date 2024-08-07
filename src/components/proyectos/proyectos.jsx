@@ -20,6 +20,8 @@ const projects = [
 
 const Projects = () => {
     return (
+        <section className='cont-project-list'>
+            <h2 className="text-bold">Proyectos</h2>
         <div className="project-list" >
             {
                 projects.map((project, index) => {
@@ -27,6 +29,7 @@ const Projects = () => {
 
                     return (
                         <div className="project" key={index}>
+                           
                             <div className="cont-header-project">
                                 <h3><a target="_blank" rel="noopener noreferrer" href={project.url}>{project.name}</a></h3>
                                 <span className={project.status === 1 ? "production" : ""}></span>
@@ -38,6 +41,7 @@ const Projects = () => {
                 })
             }
         </div >
+        </section>
     );
 };
 

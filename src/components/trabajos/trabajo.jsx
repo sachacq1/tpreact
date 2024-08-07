@@ -21,6 +21,8 @@ const works = [
 
 const Works = () => {
     return (
+        <section className='cont-work-list'>
+            <h2 className="text-bold">Experiencia laboral</h2>
         <div className="work-list">
             {works.map((work, index) => (
                 <div key={index}>
@@ -33,6 +35,7 @@ const Works = () => {
                 </div>
             ))}
         </div>
+        </section>
     );
 };
 

@@ -96,11 +96,21 @@
 
 
 /* */
-
+/* 
 .work-list,
 .education-list,
 .project-list {
-    margin: 2rem 0 2rem 0
+} */
+
+.cont-project-list,
+.cont-education-list,
+.cont-work-list {
+    margin: 2rem 0 1.5rem 0;
+    gap: 10px;
+}
+
+.text-bold  {
+    margin-bottom: 10px;
 }
 
 .work-list div,
@@ -235,3 +245,5 @@ align-items: center;}
         ;
     }
 }
+
+
